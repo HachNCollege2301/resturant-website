@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="review">
+    <div class="container">
+        <h1>Restaurant Ratings & Reviews</h1>
+        <div class="rating-section">
+            <h2>Rate Us!</h2>
+            <div class="stars">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+        </div>
+
+        <div class="review-section">
+            <h2>Write a Review</h2>
+            <textarea id="review-text" placeholder="Write your review here..."></textarea>
+            <button id="submit-review">Submit Review</button>
+        </div>
+
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <div id="reviews-list">
+                <div class="review">
+                    <p class="review-text">"Amazing food and great service!"</p>
+                    <p class="review-rating">Rating: ★★★★☆</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"Loved the ambiance and the dishes."</p>
+                    <p class="review-rating">Rating: ★★★★★</p>
+                </div>
+                <div class="review">
+                    <p class="review-text">"Good experience, but the service was a bit slow."</p>
+                    <p class="review-rating">Rating: ★★★☆☆</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
